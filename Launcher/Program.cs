@@ -21,7 +21,7 @@ namespace Launcher
 		public static Dictionary<int, ConsoleColor> EventType = new Dictionary<int, ConsoleColor>();
 		public static bool Startup = false;
 		public static string VersionKey = "000127032014";
-		public static string Version = "0.01";
+		public static string Version = "v0.01";
 		//public static APISocket hSocket;
 		public static USocket uSocket;
 		public const int Success = 0, Failure = 1, Warning = 2, Casual = 3;
@@ -70,7 +70,7 @@ namespace Launcher
 		
 		public static void SetTitle(string Title)
 		{
-			Console.Title = Title + " v" + Version + " (C) DeathsEffigy - www.snoxd.net";
+			Console.Title = Title + " " + Version + " (C) DeathsEffigy - www.snoxd.net";
 		}
 		
 		public static void SetColorRange()
